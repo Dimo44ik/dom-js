@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JS</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+<main class="main flex justify-center items-center">
+    <section class="dom__js">
+        <div class="container text-center">
+            <h1 class="title__dom-js text-2xl mb-[10px]">Приветствую вас..</h1>
+            <h3 class="subtitle__dom-js mb-[5px]"></h3>
+            <p class="desc__dom-js2 mb-[5px]">
+                Напишите число меньше 100/равно/больше
+                <input type="number" class="input__dom-js2 bg-gray-300 text-gray-700 m-2.5 p-1.5 rounded-full outline-0" id="numberInput" placeholder="Введите число:">
+                <button class="send__dom-js2 bg-green-500 rounded-full p-2 hover:bg-green-700 transition-all" id="sendNumber">Отправить</button>
+            </p>
+            
+            <p class="desc__dom-js mb-[5px]">
+                Введите текст:
+                <input type="text" class="input__dom-js bg-gray-300 text-gray-700 m-2.5 p-1.5 rounded-full outline-0" id="textInput" placeholder="Напишите - Как дела?">
+                <button class="send__dom-js bg-green-500 rounded-full p-2 hover:bg-green-700 transition-all" id="sendText">Отправить</button>
+            </p>
+            <h3 class="subtitle__dom-js2 mb-[5px]">Как дела?</h3>
+            <button class="poorly__dom-js bg-red-500 text-white p-1.5 m-1.5 rounded-full hover:bg-red-700 ease-in-out transition-all">Плохо</button>
+            <button class="good__dom-js  bg-yellow-500 text-white p-1.5 m-1.5 rounded-full hover:bg-yellow-700 ease-in-out transition-all">Хорошо</button>
+            <button class="great__dom-js bg-green-500 text-white p-1.5 m-1.5 rounded-full hover:bg-green-700 ease-in-out transition-all">Отлично</button>
+        </div>
+        <div class="container-two flex justify-center items-center">
+
+        </div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
